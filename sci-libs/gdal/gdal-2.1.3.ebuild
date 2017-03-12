@@ -76,7 +76,7 @@ src_prepare() {
 
 	# -soname is only accepted by GNU ld/ELF
 	if [[ ${CHOST} == *-darwin* ]]; then
-		PATCHES+=( "${FILESDIR}"/${PN}-2.0.3-install_name.patch )
+		PATCHES+=( "${FILESDIR}"/${PN}-2.1.3-install_name.patch )
 	else
 		PATCHES+=( "${FILESDIR}"/${PN}-1.5.0-soname-r1.patch )
 	fi
