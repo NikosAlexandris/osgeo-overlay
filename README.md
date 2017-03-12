@@ -1,4 +1,8 @@
-# OSGeo Overlay Experimental
+# OSGeo Overlay
+
+```diff
+- Experimental!
+```
 
 A personal Gentoo/Funtoo Linux overlay aiming to host up-to-date
 [OSGeo](http://www.osgeo.org/) software. Namely,
