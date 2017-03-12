@@ -72,7 +72,7 @@ REQUIRED_USE="mdb? ( java )
 
 src_prepare() {
 	local PATCHES=()
-	local PATCHES=( "${FILESDIR}"/gdal-2.0.3-add-dlopen-support-for-jvm.patch )
+	# local PATCHES=( "${FILESDIR}"/gdal-2.0.3-add-dlopen-support-for-jvm.patch )
 
 	# -soname is only accepted by GNU ld/ELF
 	if [[ ${CHOST} == *-darwin* ]]; then
