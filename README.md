@@ -1,4 +1,8 @@
-# OSGeo Overlay [Experimental]
+# OSGeo Overlay
+
+```diff
+- Experimental!
+```
 
 A personal Gentoo/Funtoo Linux overlay aiming to host up-to-date
 [OSGeo](http://www.osgeo.org/) software. Namely,
@@ -9,7 +13,7 @@ A personal Gentoo/Funtoo Linux overlay aiming to host up-to-date
 
 ## To Do
 
--  Review COPYRIGHT.txt and LICENSE.txt.
+*  Review COPYRIGHT.txt and LICENSE.txt.
 
 ## Contribution
 
@@ -18,11 +22,11 @@ create a pull request.
 
 <table>
     <tr>
-        <td>*Author:*</td>
+        <td>Author:</td>
         <td>Nikos Alexandris</td>
     </tr>
     <tr>
-        <td>*Languages:</td>
+        <td>Languages:</td>
         <td>Ελληνικά, Deutsch, English, Français
         </td>
     </tr>
