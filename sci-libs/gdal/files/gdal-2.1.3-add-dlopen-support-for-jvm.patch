@@ -1,5 +1,5 @@
---- configure.source	2017-03-12 19:40:54.510078889 +0100
-+++ configure	2017-03-12 19:47:33.661093103 +0100
+--- a/configure	2017-03-12 19:40:54.510078889 +0100
++++ b/configure	2017-03-12 19:47:33.661093103 +0100
 @@ -1806,7 +1806,7 @@
    --with-python=ARG   Enable python bindings (ARG=yes, no, or path to python binary)
    --with-java       Include Java support (ARG=yes, no or JDK home path)  [default=no]
@@ -27,8 +27,8 @@
              LDFLAGS="$LDFLAGS -L$with_jvm_lib"
 
 
---- configure.in.source	2017-03-12 19:47:49.165093655 +0100
-+++ configure.in	2017-03-12 19:53:24.677105604 +0100
+--- a/configure.in	2017-03-12 19:47:49.165093655 +0100
++++ b/configure.in	2017-03-12 19:53:24.677105604 +0100
 @@ -4666,11 +4666,14 @@
          AC_MSG_ERROR("--with-java must be specified.")
      fi
@@ -48,8 +48,8 @@
              LDFLAGS="$LDFLAGS -L$with_jvm_lib"
 
 
---- oogr/ogrsf_frmts/mdb/grmdbjackcess.cpp.source	2017-03-12 20:02:02.330124038 +0100
-+++ oogr/ogrsf_frmts/mdb/grmdbjackcess.cpp	2017-03-12 20:11:34.121144401 +0100
+--- a/ogr/ogrsf_frmts/mdb/ogrmdbjackcess.cpp	2017-03-12 20:02:02.330124038 +0100
++++ b/ogr/ogrsf_frmts/mdb/ogrmdbjackcess.cpp	2017-03-12 20:11:34.121144401 +0100
 @@ -29,6 +29,11 @@
  
  #include "ogr_mdb.h"
@@ -160,8 +160,8 @@
                  return FALSE;
 
 
---- port/cpl_config.h.in.source	2017-03-12 20:04:35.469129492 +0100
-+++ port/cpl_config.h.in	2017-03-12 20:06:05.903132713 +0100
+--- a/port/cpl_config.h.in	2017-03-12 20:04:35.469129492 +0100
++++ b/port/cpl_config.h.in	2017-03-12 20:06:05.903132713 +0100
 @@ -170,8 +170,10 @@
  /* For .cpp files, define as const if the declaration of iconv() needs const. */
  #undef ICONV_CPP_CONST
